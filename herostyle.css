@@ -1,0 +1,80 @@
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+      }
+      body {
+        background-image: linear-gradient(
+          to bottom,
+          #d4d8dd 0%,
+          #cfd4d8 15%,
+          #c0c8ca 30%,
+          #b0bbbe 45%,
+          #9aa8ac 60%,
+          #617484 75%,
+          #2e4156 90%,
+          #1a2d42 100%
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      .container {
+        border: 1px solid rgba(255, 255, 255, 0.185);
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+      .container h1,
+      h3 {
+        font-weight: 450;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.623);
+      }
+      .container input {
+        width: 250px;
+        padding: 8px;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        background-color: #1a2d42;
+        color: white;
+        margin: 16px 0 0 0;
+        border: 1px solid rgba(255, 255, 255, 0.788);
+      }
+      .container input::placeholder {
+        color: white;
+      }
+      .hero-section {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 254, 254, 0.199);
+        border-radius: 10px;
+        padding: 10px;
+        gap: 10px;
+        /* box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.26); */
+      }
+      .img img {
+        width: 300px;
+        border-radius: 10px;
+      }
+      #searchBtn {
+        padding: 8px 16px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #1a2d42;
+        color: white;
+        cursor: pointer;
+      }

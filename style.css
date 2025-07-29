@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+body{
+  background-image: linear-gradient(   to bottom,
+  #d4d8dd 0%,
+  #cfd4d8 15%,
+  #c0c8ca 30%,
+  #b0bbbe 45%,
+  #9aa8ac 60%,
+  #617484 75%,
+  #2E4156 90%,
+  #1A2D42 100%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  box-shadow: 2px 2px 1px 3px rgba(0,0,0,0.3);
+  padding: 2em;
+}
+.form{
+  padding: 20px;
+ 
+}
+.form .label,input{
+  margin: 10px 0px;
+}
+.form input{
+  width: 250px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+  color: black;
+}
+.form input::placeholder{
+  color: black;
+}
+.form button{
+  width: 250px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1A2D42;
+  color: white;
+  margin: 10px 0px;
+}
+
+
+/* second page css  */
+
+.dashboard{
+  border: 1px solid rgba(255, 255, 255, 0.185);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.dashboard h1,
+h3{
+  font-weight: 450;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.623);
+}
+.dashboard button{
+  width: 250px;
+  padding: 8px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #1A2D42;
+  color: white;
+  margin: 16px 0 0 0;
+}
